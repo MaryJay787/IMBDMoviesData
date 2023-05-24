@@ -16,12 +16,12 @@ FROM
 CurrentMovies
 ORDER BY budget DESC
 LIMIT 5 
---- Princess Mononoke Update --
-UPdate CurrentMovies
+--- Princess Mononoke UPDATE --
+UPDATE CurrentMovies
 SET budget = REPLACE(budget, 2400000000, 23500000)
 
--- 3 Idiots Update --
-UPdate CurrentMovies
+-- 3 Idiots UPDATE --
+UPDATE CurrentMovies
 SET budget = REPLACE(budget, 550000000, 6700000)
 
 -- Top 5 Budjectyed Movies --
